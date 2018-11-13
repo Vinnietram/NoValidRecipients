@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoValidRecipient", "NoValidRecipient\NoValidRecipient.csproj", "{83D5D08A-AD4B-4EFA-B9C7-6882E0B659D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeSmtpServer", "SmtpServer\FakeSmtpServer.csproj", "{68FD4D75-A882-4B4E-B394-2C1D473F6A1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeSmtpClient", "FakeSmtpClient\FakeSmtpClient.csproj", "{637E3A36-EDC6-4E7B-9F77-4BF758E05C42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83D5D08A-AD4B-4EFA-B9C7-6882E0B659D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83D5D08A-AD4B-4EFA-B9C7-6882E0B659D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83D5D08A-AD4B-4EFA-B9C7-6882E0B659D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83D5D08A-AD4B-4EFA-B9C7-6882E0B659D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68FD4D75-A882-4B4E-B394-2C1D473F6A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68FD4D75-A882-4B4E-B394-2C1D473F6A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68FD4D75-A882-4B4E-B394-2C1D473F6A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68FD4D75-A882-4B4E-B394-2C1D473F6A1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{637E3A36-EDC6-4E7B-9F77-4BF758E05C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{637E3A36-EDC6-4E7B-9F77-4BF758E05C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{637E3A36-EDC6-4E7B-9F77-4BF758E05C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{637E3A36-EDC6-4E7B-9F77-4BF758E05C42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
